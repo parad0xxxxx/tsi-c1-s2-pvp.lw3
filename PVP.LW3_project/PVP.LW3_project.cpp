@@ -255,8 +255,9 @@ void calcIntergers()
 
 	setConsoleColor(9);
 	std::cout << "sumIntergers(a, b) ";
-	setConsoleColor(15);
+	setConsoleColor(8);
 	std::cout << "(by value): \n";
+	setConsoleColor(15);
 	checkNegative(a);
 	std::cout << " + ";
 	checkNegative(b);
@@ -266,8 +267,9 @@ void calcIntergers()
 
 	setConsoleColor(9);
 	std::cout << "sumIntergers(&a, &b) ";
-	setConsoleColor(15);
+	setConsoleColor(8);
 	std::cout << "(by pointer): \n";
+	setConsoleColor(15);
 	checkNegative(a);
 	std::cout << " + ";
 	checkNegative(b);
